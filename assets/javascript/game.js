@@ -1,6 +1,5 @@
-var wins = document.getElementsByClassName("wins");
-var losses = document.getElementsByClassName("losses");
-var remaining = document.getElementsByClassName("remaining");
-var word = document.getElementsByClassName("word");
-var guessed = document.getElementsByClassName("guessed");
+var winTally = 0;
+var lossTally = 0;
+var remainingTally = 10;
 
+console.log(winTally);
