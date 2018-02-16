@@ -7,11 +7,11 @@ body {
 }
 
 .wrapper {
-  width: 50%;
+  width: 47%;
   margin: 0 auto;  
 }
 
-h1, h2, h3 {
+h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-transform: uppercase;
