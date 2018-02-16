@@ -53,8 +53,9 @@ window.onload = function () {
   var comments = function () {
     showLives.innerHTML = 'You have ' + lives + ' lives';
     if (lives < 1) {
-      showLives.innerHTML = 'Game Over!';
+      showLives.innerHTML = 'Game Over!  The correct answer is: ' + chosenCharacter;
     }
+
     for (let i = 0; i < guesses.length; i++) {
       if (counter + space === guesses.length) {
         showLives.innerHTML = 'You Win!'
