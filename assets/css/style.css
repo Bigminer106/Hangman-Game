@@ -1,21 +1,19 @@
-body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  color: black;
-  height: 100%;
-  text-align: center;
-  font-size: 24px;
-}
-
 .wrapper {
-  width: 47%;
-  margin: 0 auto;  
+  color: black;
+  width: 676px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-h2, h3 {
+h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-transform: uppercase;
   margin: 5px 0;
+}
+
+h1 {
+  font-size: 2.4em;
 }
 
 #buttons {

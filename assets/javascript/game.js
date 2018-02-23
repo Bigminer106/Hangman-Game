@@ -85,7 +85,7 @@ window.onload = function () {
   }
 
   var play = function() {
-    characters = ['zelda', 'link', 'mario', 'luigi', 'yoshi', 'peach', 'bowser', 'master-chief', 'doom-marine', 'altair', 'ezio-auditore', 'edward-kenway', 'connor-kenway', 'shay-cormac', 'bayek', 'evie-frye', 'jacob-frye', 'arno-dorian', 'liara', 'tali-zorah', 'shepard', 'grunt', 'wrex', 'samara', 'mordin-solus', 'thane-krios', 'ashley-williams', 'jacob-taylor', 'kaiden-alenko', 'miranda-lawson', 'garrus-vakarian', 'legion', 'javik', 'zaeed-massani', 'kasumi-goto', 'leonardo-davinci', 'cleopatra', 'julius-ceasar', 'rodrigo-borgia', 'cesare-borgia', 'lucrezia-borgia', 'george-washington', 'harbinger', 'sovereign', 'reapers', 'jack', 'suleiman', 'assassins', 'templars', 'warren-vidic', 'desmond-miles'];
+    characters = ['zelda', 'link', 'mario', 'luigi', 'yoshi', 'peach', 'bowser', 'master-chief', 'doom-marine', 'altair', 'ezio-auditore', 'edward-kenway', 'connor-kenway', 'shay-cormac', 'bayek', 'evie-frye', 'jacob-frye', 'arno-dorian', 'liara', 'tali-zorah', 'shepard', 'grunt', 'wrex', 'samara', 'mordin-solus', 'thane-krios', 'ashley-williams', 'jacob-taylor', 'kaiden-alenko', 'miranda-lawson', 'garrus-vakarian', 'legion', 'javik', 'zaeed-massani', 'kasumi-goto', 'leonardo-davinci', 'cleopatra', 'julius-ceasar', 'rodrigo-borgia', 'cesare-borgia', 'lucrezia-borgia', 'george-washington', 'harbinger', 'sovereign', 'reapers', 'jack', 'suleiman', 'assassins', 'templars', 'warren-vidic', 'desmond-miles', 'systems-alliance', 'citadel', 'cerberus'];
     chosenCharacter = characters[Math.floor(Math.random() * characters.length)];
     word = chosenCharacter.replace(/\s/g, '-');
     console.log(word);
